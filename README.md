@@ -6,27 +6,27 @@
 ##########################
 # Tech Stack
 ##########################
-# Go 1.22+
-# Gin Gonic
-# MongoDB
-# JWT (Access + Refresh)
-# Gin Middleware
-# CORS
-# Go Mongo Driver v2
+-Go 1.22+
+-Gin Gonic
+-MongoDB
+-JWT (Access + Refresh)
+-Gin Middleware
+-CORS
+-Go Mongo Driver v2
 
 ##########################
 # Project Structure
 ##########################
-# PeliculAppServer/
-# ├── controllers/       # API logic for movies, genres, and users
-# ├── database/          # MongoDB connection
-# ├── middleware/        # JWT authentication
-# ├── models/            # Data models: User, Movie, Genre
-# ├── routes/            # Protected & public routes
-# ├── utils/             # Token generation & validation
-# ├── main.go            # Entry point
-# ├── go.mod             # Go module file
-# └── .env               # Environment variables
+  PeliculAppServer/
+  ├── controllers/        API logic for movies, genres, and users
+  ├── database/           MongoDB connection
+  ├── middleware/         JWT authentication
+  ├── models/             Data models: User, Movie, Genre
+  ├── routes/             Protected & public routes
+  ├── utils/              Token generation & validation
+  ├── main.go             Entry point
+  ├── go.mod              Go module file
+  └── .env                Environment variables
 
 ##########################
 # Installation
@@ -59,100 +59,100 @@ EOT
 # Database
 ##########################
 # MongoDB collections:
-# - users
-# - movies
-# - genres
-# Database connection is handled in: database/connect.go
+ - users
+ - movies
+ - genres
+ Database connection is handled in: database/connect.go
 
 ##########################
 # Authentication
 ##########################
-# JWT Access Token (24h)
-# JWT Refresh Token (7 days)
-# Tokens stored in MongoDB
-# Access token sent as HTTPOnly cookie
+ JWT Access Token (24h)
+ JWT Refresh Token (7 days)
+ Tokens stored in MongoDB
+ Access token sent as HTTPOnly cookie
 
 # Functions:
-# - Generate tokens → utils.GenerateAllTokens()
-# - Validate tokens → utils.ValidateToken()
-# - Refresh tokens → /refresh
+ - Generate tokens → utils.GenerateAllTokens()
+ - Validate tokens → utils.ValidateToken()
+ - Refresh tokens → /refresh
 
 ##########################
 # Public Routes
 ##########################
-# Method | Route                | Description
-# -------|---------------------|------------------------------
-# GET    | /movies             | Get all movies
-# GET    | /movie/:imdb_id     | Get a movie by IMDb ID
-# GET    | /genres             | Get all genres
-# GET    | /search?query=      | Search movies by title/genre
-# POST   | /register           | Register a new user
-# POST   | /login              | Login user
-# POST   | /logout             | Logout user
-# POST   | /refresh            | Refresh access token
+ Method | Route                | Description
+ -------|---------------------|------------------------------
+ GET    | /movies             | Get all movies
+ GET    | /movie/:imdb_id     | Get a movie by IMDb ID
+ GET    | /genres             | Get all genres
+ GET    | /search?query=      | Search movies by title/genre
+ POST   | /register           | Register a new user
+ POST   | /login              | Login user
+ POST   | /logout             | Logout user
+ POST   | /refresh            | Refresh access token
 
 ##########################
 # Protected Routes (JWT Required)
 ##########################
-# Method | Route                   | Description
-# -------|------------------------|-----------------------------------
-# POST   | /addmovie               | Add a new movie (ADMIN only)
-# PATCH  | /updatereview/:imdb_id  | Update admin review (ADMIN only)
+ Method | Route                   | Description
+ -------|------------------------|-----------------------------------
+ POST   | /addmovie               | Add a new movie (ADMIN only)
+ PATCH  | /updatereview/:imdb_id  | Update admin review (ADMIN only)
 
 ##########################
 # Models
 ##########################
 
-# Movie (models.Movie)
-# ID          ObjectID
-# ImdbID      string
-# Title       string
-# PosterPath  string
-# YouTubeID   string
-# Genre       []Genre
-# AdminReview string
-# Description string
-# WatchURL    string
+ Movie (models.Movie):
+ ID          ObjectID
+ ImdbID      string
+ Title       string
+ PosterPath  string
+ YouTubeID   string
+ Genre       []Genre
+ AdminReview string
+ Description string
+ WatchURL    string
 
-# User (models.User)
-# ID              ObjectID
-# UserID          string
-# FirstName       string
-# LastName        string
-# Email           string
-# Password        string
-# Role            string // ADMIN or USER
-# FavouriteGenres []Genre
-# Token           string
-# RefreshToken    string
-# CreatedAt       time.Time
-# UpdatedAt       time.Time
+ User (models.User):
+ ID              ObjectID
+ UserID          string
+ FirstName       string
+ LastName        string
+ Email           string
+ Password        string
+ Role            string // ADMIN or USER
+ FavouriteGenres []Genre
+ Token           string
+ RefreshToken    string
+ CreatedAt       time.Time
+ UpdatedAt       time.Time
 
-# Genre (models.Genre)
-# GenreID   int
-# GenreName string
+ Genre (models.Genre):
+ GenreID   int
+ GenreName string
 
 ##########################
 # Middleware
 ##########################
-# AuthMiddleware validates JWT, extracts userId and role, 
-# blocks unauthorized access (required for admin routes).
+ AuthMiddleware validates JWT, extracts userId and role, 
+ blocks unauthorized access (required for admin routes).
 
 ##########################
 # Running the Server
 ##########################
 go run main.go
 
-# Server will run on:
-# http://localhost:8080
+ Server will run on:
+ http://localhost:8080
 
 ##########################
 # Notes
 ##########################
-# CORS configured via ALLOWED_ORIGINS in .env
-# Admin-only actions: /addmovie, /updatereview/:imdb_id
-# Tokens are automatically updated in MongoDB on login and refresh
-# Cookies are set with HttpOnly for security
+ CORS configured via ALLOWED_ORIGINS in .env
+ Admin-only actions: /addmovie, /updatereview/:imdb_id
+ Tokens are automatically updated in MongoDB on login and refresh
+ Cookies are set with HttpOnly for security
 
 
 
