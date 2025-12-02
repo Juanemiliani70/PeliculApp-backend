@@ -1,8 +1,7 @@
 # PeliculApp – Backend API (Golang + Gin + MongoDB)
 
-# PeliculApp is a RESTful backend built with Golang, Gin, and MongoDB.
-# It provides user authentication, movie and genre management, admin reviews,
-# and secure JWT token handling (Access + Refresh tokens).
+ PeliculApp is a RESTful backend built with Golang, Gin, and MongoDB. It provides user authentication, movie and genre management, admin reviews,
+ and secure JWT token handling (Access + Refresh tokens).
 
 ##########################
 # Tech Stack
