@@ -5,4 +5,4 @@ services:
     plan: free
     buildCommand: go build -tags netgo -ldflags '-s -w' -o app
     startCommand: ./app
-    goVersion: 1.25.1
+    goVersion: 1.25.0
