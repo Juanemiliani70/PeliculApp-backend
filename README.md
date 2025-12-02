@@ -3,9 +3,9 @@
  PeliculApp is a RESTful backend built with Golang, Gin, and MongoDB. It provides user authentication, movie and genre management, admin reviews,
  and secure JWT token handling (Access + Refresh tokens).
 
-##########################
+
 # Tech Stack
-##########################
+
 -Go 1.22+
 -Gin Gonic
 -MongoDB
@@ -14,9 +14,9 @@
 -CORS
 -Go Mongo Driver v2
 
-##########################
+
 # Project Structure
-##########################
+
   PeliculAppServer/
   ├── controllers/        API logic for movies, genres, and users
   ├── database/           MongoDB connection
@@ -28,58 +28,59 @@
   ├── go.mod              Go module file
   └── .env                Environment variables
 
-##########################
-# Installation
-##########################
 
-# 1- Clone the repository
+# Installation
+
+
+1- Clone the repository
 git clone https://github.com/Juanemiliani70/PeliculApp.git
 cd PeliculApp/PeliculAppServer
 
-# 2- Install dependencies
+2- Install dependencies
 go mod tidy
 
-# 3- Create your `.env` file
-# Example:
-cat <<EOT >> .env
-# MongoDB
+3- Create your `.env` file
+ Example:
+ cat <<EOT >> .env
+
+-MongoDB:
 MONGODB_URI=mongodb://localhost:27017
 DATABASE_NAME=movies-app
 
-# Server
+-Server:
 PORT=8080
 ALLOWED_ORIGINS=http://localhost:5173
 
-# JWT Keys
+-JWT Keys:
 SECRET_KEY=your_access_token_secret
 SECRET_REFRESH_KEY=your_refresh_token_secret
 EOT
 
-##########################
+
 # Database
-##########################
-# MongoDB collections:
+
+-MongoDB collections:
  - users
  - movies
  - genres
  Database connection is handled in: database/connect.go
 
-##########################
+
 # Authentication
-##########################
+
  JWT Access Token (24h)
  JWT Refresh Token (7 days)
  Tokens stored in MongoDB
  Access token sent as HTTPOnly cookie
 
-# Functions:
+-Functions:
  - Generate tokens → utils.GenerateAllTokens()
  - Validate tokens → utils.ValidateToken()
  - Refresh tokens → /refresh
 
-##########################
+
 # Public Routes
-##########################
+
  Method | Route                | Description
  -------|---------------------|------------------------------
  GET    | /movies             | Get all movies
@@ -91,17 +92,17 @@ EOT
  POST   | /logout             | Logout user
  POST   | /refresh            | Refresh access token
 
-##########################
+
 # Protected Routes (JWT Required)
-##########################
+
  Method | Route                   | Description
  -------|------------------------|-----------------------------------
  POST   | /addmovie               | Add a new movie (ADMIN only)
  PATCH  | /updatereview/:imdb_id  | Update admin review (ADMIN only)
 
-##########################
+
 # Models
-##########################
+
 
  Movie (models.Movie):
  ID          ObjectID
@@ -132,23 +133,23 @@ EOT
  GenreID   int
  GenreName string
 
-##########################
+
 # Middleware
-##########################
+
  AuthMiddleware validates JWT, extracts userId and role, 
  blocks unauthorized access (required for admin routes).
 
-##########################
+
 # Running the Server
-##########################
+
 go run main.go
 
  Server will run on:
  http://localhost:8080
 
-##########################
+
 # Notes
-##########################
+
  CORS configured via ALLOWED_ORIGINS in .env
  Admin-only actions: /addmovie, /updatereview/:imdb_id
  Tokens are automatically updated in MongoDB on login and refresh
