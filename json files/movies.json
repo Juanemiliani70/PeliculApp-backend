@@ -1,0 +1,346 @@
+[
+    {
+        "imdb_id": "tt0111161",
+        "title": "Sueño de Libertad",
+        "poster_path": "https://image.tmdb.org/t/p/w300/2GgerXCbCMgvt2kLwWEmJWCSG65.jpg",
+        "youtube_id": "PLl99DlL6b4",
+        "genre": [
+            { "genre_id": 2, "genre_name": "Drama" }
+        ],
+        "admin_review": "Me encantó la actuación en esta película. ¡Sublime!",
+        "ranking": { "ranking_value": 1, "ranking_name": "Excelente" }
+    },
+    {
+        "imdb_id": "tt7131622",
+        "title": "Érase una vez en Hollywood",
+        "poster_path": "https://image.tmdb.org/t/p/w300/wQKeS2JrsRF8XSfd9zqflrc5gad.jpg",
+        "youtube_id": "ELeMaP8EPAA",
+        "genre": [
+            { "genre_id": 2, "genre_name": "Drama" },
+            { "genre_id": 1, "genre_name": "Comedia" }
+        ],
+        "admin_review": "Esta película es terrible.",
+        "ranking": { "ranking_value": 5, "ranking_name": "Muy mala" }
+    },
+    {
+        "imdb_id": "tt0080339",
+        "title": "¿Y dónde está el piloto?",
+        "poster_path": "https://image.tmdb.org/t/p/w300/zOiB3p2WTTiwCFgTMnXuDGgzbTN.jpg",
+        "youtube_id": "07pPmCfKi3U",
+        "genre": [
+            { "genre_id": 1, "genre_name": "Comedia" }
+        ],
+        "admin_review": "No me encantó, pero tampoco la odié.",
+        "ranking": { "ranking_value": 3, "ranking_name": "Regular" }
+    },
+    {
+        "imdb_id": "tt1119646",
+        "title": "¿Qué pasó ayer?",
+        "poster_path": "https://image.tmdb.org/t/p/w300/c15rH9S5JN83UXqu9iM4TQsW6Rl.jpg",
+        "youtube_id": "jj6wcUes1no",
+        "genre": [
+            { "genre_id": 1, "genre_name": "Comedia" }
+        ],
+        "admin_review": "Entretenida, normal.",
+        "ranking": { "ranking_value": 3, "ranking_name": "Regular" }
+    },
+    {
+        "imdb_id": "tt0109040",
+        "title": "Ace Ventura: Un detective diferente",
+        "poster_path": "https://image.tmdb.org/t/p/w300/dukxJWd72ffNWfqfFSVFFuym4RG.jpg",
+        "youtube_id": "qjBb1CKLpzE",
+        "genre": [
+            { "genre_id": 1, "genre_name": "Comedia" }
+        ],
+        "admin_review": "No es muy buena.",
+        "ranking": { "ranking_value": 4, "ranking_name": "Mala" }
+    },
+    {
+        "imdb_id": "tt0105695",
+        "title": "Los imperdonables",
+        "poster_path": "https://image.tmdb.org/t/p/w300/7W0CsZBe5fkX29DvHBi5Ct1WqLe.jpg",
+        "youtube_id": "6_UlfsdGiEc",
+        "genre": [
+            { "genre_id": 2, "genre_name": "Drama" },
+            { "genre_id": 3, "genre_name": "Western" }
+        ],
+        "admin_review": "Odio esta película.",
+        "ranking": { "ranking_value": 5, "ranking_name": "Muy mala" }
+    },
+    {
+        "imdb_id": "tt0060196",
+        "title": "El bueno, el malo y el feo",
+        "poster_path": "https://image.tmdb.org/t/p/w300/e881nA7p982CHL5GjI1LICwHMd7.jpg",
+        "youtube_id": "WCN5JJY_wiA",
+        "genre": [
+            { "genre_id": 3, "genre_name": "Western" }
+        ],
+        "admin_review": "No me gustó.",
+        "ranking": { "ranking_value": 4, "ranking_name": "Mala" }
+    },
+    {
+        "imdb_id": "tt0903624",
+        "title": "El Hobbit: Un viaje inesperado",
+        "poster_path": "https://image.tmdb.org/t/p/w300/vdAGcr1F6wJPRryeODVAcy2mU4z.jpg",
+        "youtube_id": "9PSXjr1gbjc",
+        "genre": [
+            { "genre_id": 4, "genre_name": "Fantasía" }
+        ],
+        "admin_review": "Muy mala, la odié.",
+        "ranking": { "ranking_value": 5, "ranking_name": "Muy mala" }
+    },
+    {
+        "imdb_id": "tt0241527",
+        "title": "Harry Potter y la piedra filosofal",
+        "poster_path": "https://image.tmdb.org/t/p/w300/e6JYlushXIXK85JGfDHEFHrrNYK.jpg",
+        "youtube_id": "VyHV0BRtdxo",
+        "genre": [
+            { "genre_id": 4, "genre_name": "Fantasía" }
+        ],
+        "admin_review": "No es mala, pero tampoco espectacular.",
+        "ranking": { "ranking_value": 3, "ranking_name": "Regular" }
+    },
+    {
+        "imdb_id": "tt2267998",
+        "title": "Perdida",
+        "poster_path": "https://image.tmdb.org/t/p/w300/xpA0q0DJWKe7AY63pVPZbGLwuo5.jpg",
+        "youtube_id": "2-_-1nJf8Vg",
+        "genre": [
+            { "genre_id": 2, "genre_name": "Drama" },
+            { "genre_id": 5, "genre_name": "Suspenso" }
+        ],
+        "admin_review": "Oscura pero aceptable.",
+        "ranking": { "ranking_value": 3, "ranking_name": "Regular" }
+    },
+    {
+        "imdb_id": "tt8946378",
+        "title": "Entre navajas y secretos",
+        "poster_path": "https://image.tmdb.org/t/p/w300/hVcCOlHU0HmGBBQNmS9RlalBXGz.jpg",
+        "youtube_id": "qGqiHJTsRkQ",
+        "genre": [
+            { "genre_id": 2, "genre_name": "Drama" },
+            { "genre_id": 5, "genre_name": "Suspenso" },
+            { "genre_id": 8, "genre_name": "Misterio" }
+        ],
+        "admin_review": "La historia es fantástica y la actuación sublime.",
+        "ranking": { "ranking_value": 1, "ranking_name": "Excelente" }
+    },
+    {
+        "imdb_id": "tt0080684",
+        "title": "Star Wars: El imperio contraataca",
+        "poster_path": "https://image.tmdb.org/t/p/w300/1mh82R1qLKwdutQVGnpHItdwPCP.jpg",
+        "youtube_id": "JNwNXF9Y6kY",
+        "genre": [
+            { "genre_id": 6, "genre_name": "Ciencia ficción" },
+            { "genre_id": 4, "genre_name": "Fantasía" }
+        ],
+        "admin_review": "Está bien.",
+        "ranking": { "ranking_value": 3, "ranking_name": "Regular" }
+    },
+    {
+        "imdb_id": "tt0102975",
+        "title": "Star Trek VI: Aquel país desconocido",
+        "poster_path": "https://image.tmdb.org/t/p/w300/jukY1tFpuXgqrJLl1PvdOMarCvN.jpg",
+        "youtube_id": "RYA2q2Sm_Jo",
+        "genre": [
+            { "genre_id": 6, "genre_name": "Ciencia ficción" },
+            { "genre_id": 7, "genre_name": "Acción" }
+        ],
+        "admin_review": "No fue buena, pero tampoco tan mala.",
+        "ranking": { "ranking_value": 3, "ranking_name": "Regular" }
+    },
+    {
+        "imdb_id": "tt1297919",
+        "title": "Blitz",
+        "poster_path": "https://image.tmdb.org/t/p/w300/tI4fPu0LZ0FNdZdi6fvYGCRiuQs.jpg",
+        "youtube_id": "mhO2WJ3MNRI",
+        "genre": [
+            { "genre_id": 9, "genre_name": "Crimen" },
+            { "genre_id": 7, "genre_name": "Acción" },
+            { "genre_id": 5, "genre_name": "Suspenso" }
+        ],
+        "admin_review": "Una película encantadora.",
+        "ranking": { "ranking_value": 1, "ranking_name": "Excelente" }
+    },
+    {
+        "imdb_id": "tt0790724",
+        "title": "Jack Reacher",
+        "poster_path": "https://image.tmdb.org/t/p/w300/8sih1uieUopA9zrEO1meNhmm7aO.jpg",
+        "youtube_id": "A7FiWkyevqY",
+        "genre": [
+            { "genre_id": 7, "genre_name": "Acción" },
+            { "genre_id": 5, "genre_name": "Suspenso" }
+        ],
+        "admin_review": "Probablemente la peor película que vi en mi vida.",
+        "ranking": { "ranking_value": 5, "ranking_name": "Muy mala" }
+    },
+
+    {
+        "imdb_id": "tt0172495",
+        "title": "Gladiador",
+        "poster_path": "https://image.tmdb.org/t/p/w300/pLfQbFxoMq2NbqruZQewWvFv7Ax.jpg",
+        "youtube_id": "P5ieIbInFpg",
+        "genre": [
+            { "genre_id": 2, "genre_name": "Drama" },
+            { "genre_id": 7, "genre_name": "Acción" }
+        ],
+        "admin_review": "Una obra épica, emocionante y memorable.",
+        "ranking": { "ranking_value": 1, "ranking_name": "Excelente" }
+    },
+    {
+        "imdb_id": "tt0110912",
+        "title": "Pulp Fiction",
+        "poster_path": "https://image.tmdb.org/t/p/w300/y6I8iXg6ePV44ssgRtR426cDBs.jpg",
+        "youtube_id": "s7EdQ4FqbhY",
+        "genre": [
+            { "genre_id": 2, "genre_name": "Drama" },
+            { "genre_id": 1, "genre_name": "Comedia" }
+        ],
+        "admin_review": "Una de las mejores películas jamás hechas.",
+        "ranking": { "ranking_value": 1, "ranking_name": "Excelente" }
+    },
+    {
+        "imdb_id": "tt1375666",
+        "title": "El Origen (Inception)",
+        "poster_path": "https://image.tmdb.org/t/p/w300/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+        "youtube_id": "8hP9D6kZseM",
+        "genre": [
+            { "genre_id": 6, "genre_name": "Ciencia ficción" },
+            { "genre_id": 5, "genre_name": "Suspenso" }
+        ],
+        "admin_review": "Brillante, compleja y totalmente envolvente.",
+        "ranking": { "ranking_value": 1, "ranking_name": "Excelente" }
+    },
+    {
+        "imdb_id": "tt0482571",
+        "title": "El gran truco (The Prestige)",
+        "poster_path": "https://image.tmdb.org/t/p/w300/5MXyQfz8xUP3dIFPTubhTsbFY6N.jpg",
+        "youtube_id": "ijXruSzfGEc",
+        "genre": [
+            { "genre_id": 5, "genre_name": "Suspenso" },
+            { "genre_id": 8, "genre_name": "Misterio" }
+        ],
+        "admin_review": "Una historia atrapante con giros increíbles.",
+        "ranking": { "ranking_value": 1, "ranking_name": "Excelente" }
+    },
+    {
+        "imdb_id": "tt0468569",
+        "title": "Batman: El Caballero de la Noche",
+        "poster_path": "https://image.tmdb.org/t/p/w300/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+        "youtube_id": "EXeTwQWrcwY",
+        "genre": [
+            { "genre_id": 7, "genre_name": "Acción" },
+            { "genre_id": 5, "genre_name": "Suspenso" }
+        ],
+        "admin_review": "Heath Ledger como Joker es inolvidable.",
+        "ranking": { "ranking_value": 1, "ranking_name": "Excelente" }
+    },
+    {
+        "imdb_id": "tt0120737",
+        "title": "El Señor de los Anillos: La Comunidad del Anillo",
+        "poster_path": "https://image.tmdb.org/t/p/w300/56zTpe2xvaA4alU51sRWPoKPYZy.jpg",
+        "youtube_id": "V75dMMIW2B4",
+        "genre": [
+            { "genre_id": 4, "genre_name": "Fantasía" },
+            { "genre_id": 7, "genre_name": "Acción" }
+        ],
+        "admin_review": "Un clásico épico del cine moderno.",
+        "ranking": { "ranking_value": 1, "ranking_name": "Excelente" }
+    },
+    {
+        "imdb_id": "tt0102926",
+        "title": "Un día de furia",
+        "poster_path": "https://image.tmdb.org/t/p/w300/r0fvI6Bfq5lHppZArYdS4x2mafg.jpg",
+        "youtube_id": "bdQfAqjZh2c",
+        "genre": [
+            { "genre_id": 2, "genre_name": "Drama" },
+            { "genre_id": 7, "genre_name": "Acción" }
+        ],
+        "admin_review": "Un drama explosivo y memorable.",
+        "ranking": { "ranking_value": 2, "ranking_name": "Muy buena" }
+    },
+    {
+        "imdb_id": "tt0109830",
+        "title": "Forrest Gump",
+        "poster_path": "https://image.tmdb.org/t/p/w300/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+        "youtube_id": "bLvqoHBptjg",
+        "genre": [
+            { "genre_id": 2, "genre_name": "Drama" }
+        ],
+        "admin_review": "Una historia emocional y hermosa.",
+        "ranking": { "ranking_value": 1, "ranking_name": "Excelente" }
+    },
+
+    {
+        "imdb_id": "tt0126029",
+        "title": "Shrek",
+        "poster_path": "https://image.tmdb.org/t/p/w300/7IweFJrDq1QYxF4H4muXuJpxF7d.jpg",
+        "youtube_id": "CwXOrWvPBPk",
+        "genre": [
+            { "genre_id": 1, "genre_name": "Comedia" },
+            { "genre_id": 4, "genre_name": "Fantasía" }
+        ],
+        "admin_review": "Divertidísima y con un humor único.",
+        "ranking": { "ranking_value": 1, "ranking_name": "Excelente" }
+    },
+    {
+        "imdb_id": "tt0133093",
+        "title": "Matrix",
+        "poster_path": "https://image.tmdb.org/t/p/w300/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+        "youtube_id": "vKQi3bBA1y8",
+        "genre": [
+            { "genre_id": 6, "genre_name": "Ciencia ficción" },
+            { "genre_id": 7, "genre_name": "Acción" }
+        ],
+        "admin_review": "Revolucionaria en efectos y filosofía.",
+        "ranking": { "ranking_value": 1, "ranking_name": "Excelente" }
+    },
+    {
+        "imdb_id": "tt0110357",
+        "title": "El Rey León",
+        "poster_path": "https://image.tmdb.org/t/p/w300/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
+        "youtube_id": "7TavVZMewpY",
+        "genre": [
+            { "genre_id": 4, "genre_name": "Fantasía" },
+            { "genre_id": 2, "genre_name": "Drama" }
+        ],
+        "admin_review": "Una de las mejores películas animadas de la historia.",
+        "ranking": { "ranking_value": 1, "ranking_name": "Excelente" }
+    },
+    {
+        "imdb_id": "tt0107290",
+        "title": "Jurassic Park",
+        "poster_path": "https://image.tmdb.org/t/p/w300/c9gqTYRbGhQy3RKb3Jfk1EYpTF7.jpg",
+        "youtube_id": "QWBKEmWWL38",
+        "genre": [
+            { "genre_id": 6, "genre_name": "Ciencia ficción" },
+            { "genre_id": 7, "genre_name": "Acción" }
+        ],
+        "admin_review": "Un clásico del cine de ciencia ficción.",
+        "ranking": { "ranking_value": 1, "ranking_name": "Excelente" }
+    },
+    {
+        "imdb_id": "tt0088247",
+        "title": "Terminator",
+        "poster_path": "https://image.tmdb.org/t/p/w300/qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
+        "youtube_id": "k64P4l2Wmeg",
+        "genre": [
+            { "genre_id": 7, "genre_name": "Acción" },
+            { "genre_id": 6, "genre_name": "Ciencia ficción" }
+        ],
+        "admin_review": "Acción pura y un ícono del cine.",
+        "ranking": { "ranking_value": 1, "ranking_name": "Excelente" }
+    },
+    {
+        "imdb_id": "tt0088763",
+        "title": "Volver al futuro",
+        "poster_path": "https://image.tmdb.org/t/p/w300/fNOH9f1aA7XRTzl1sAOx9iF553Q.jpg",
+        "youtube_id": "qvsgGtivCgs",
+        "genre": [
+            { "genre_id": 6, "genre_name": "Ciencia ficción" },
+            { "genre_id": 1, "genre_name": "Comedia" }
+        ],
+        "admin_review": "Divertida, ingeniosa y totalmente clásica.",
+        "ranking": { "ranking_value": 1, "ranking_name": "Excelente" }
+    }
+]

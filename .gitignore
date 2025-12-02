@@ -1,0 +1,18 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build folders
+/bin/
+/build/
+/dist/
+
+# Env
+.env
+
+# OS
+.DS_Store
+Thumbs.db
